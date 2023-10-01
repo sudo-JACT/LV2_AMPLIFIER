@@ -1,0 +1,3 @@
+LV2_AMPLIFIER is an LV2 plugin, and an amplifier plugin;
+  has got a binary <amp.so>;
+  provides futher information on <amp.ttl>.
