@@ -1,3 +1,3 @@
-# LV2 AMPLIFIER
+# MyAmp
 
-is a simple LV2 amplifier
+is a simple MyAmp

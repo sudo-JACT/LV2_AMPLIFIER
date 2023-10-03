@@ -1,6 +1,6 @@
 @prefix lv2: <http://lv2plug.in/ns/lv2core#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-LV2_AMPLIFIER a lv2:Plugin;
-  lv2:binary <amp.so>;
-  rdf:seeAlso <amp.ttl>.
+MyAmp a lv2:Plugin;
+  lv2:binary <MyAmp.so>;
+  rdf:seeAlso <MyAmp.ttl>.

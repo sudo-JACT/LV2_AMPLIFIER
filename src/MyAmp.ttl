@@ -3,10 +3,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix doap: <http://usefulinc.com/ns/doap#> .
 
-LV2_AMPLIFIER a lv2:Plugin, lv2:AmplifierPlugin, doap:Project;
-  lv2:binary <amp.so>;
-  rdf:seeAlso <amp.ttl>;
-  doap:name "TestAmp";
+MyAmp a lv2:Plugin, lv2:AmplifierPlugin, doap:Project;
+  lv2:binary <MyAmp.so>;
+  rdf:seeAlso <MyAmp.ttl>;
+  doap:name "MyAmp";
   lv2:optionalFeature lv2:hardRTCapable;
 
   lv2:port 
@@ -26,7 +26,7 @@ LV2_AMPLIFIER a lv2:Plugin, lv2:AmplifierPlugin, doap:Project;
       a lv2:InputPort, lv2:ControlPort;
       lv2:index 2;
       lv2:symbol "amp";
-      lv2:name "Amplification";
+      lv2:name "amplification";
       lv2:default 1.0;
       lv2:minimum 0.0;
       lv2:maximum 2.0
